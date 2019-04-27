@@ -20,7 +20,7 @@ class Data_admin extends CI_Controller {
         $this->load->library('pagination');
         $config['base_url']=base_url().'data_admin/index/';
         $config['total_rows']=$jumlah_data;
-        $config['per_page']=4;
+        $config['per_page']=5;
 
         // class pagination bootstrap 4 
 		$config['first_link']       = 'First';
